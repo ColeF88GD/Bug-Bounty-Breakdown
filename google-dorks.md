@@ -21,6 +21,7 @@ Search operators for finding exposed pages and files. Combine them with `site:` 
 | `-` | Exclude a term, for example `site:target.com -www` |
 
 ## Good for SSRF 
+#### Use these targeted Google dorks to identify potential SSRF entry points across in-scope subdomains by searching for URL-fetching parameters, redirect handlers, proxy routes, external resource loaders and file-processing endpoints
 ```
 site:\*.target.com inurl:"url="  
 site:\*.target.com inurl:"redirect="  
