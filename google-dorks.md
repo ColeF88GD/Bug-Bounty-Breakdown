@@ -23,29 +23,29 @@ Search operators for finding exposed pages and files. Combine them with `site:` 
 ## Good for SSRF 
 #### Use these targeted Google dorks to identify potential SSRF entry points across in-scope subdomains by searching for URL-fetching parameters, redirect handlers, proxy routes, external resource loaders and file-processing endpoints
 ```
-site:\*.target.com inurl:"url="  
-site:\*.target.com inurl:"redirect="  
-site:\*.target.com inurl:"?next=http"  
-site:\*.target.com inurl:"img_url="  
-site:\*.target.com inurl:"load.php?url="  
-site:\*.target.com inurl:"api.php?url="  
-site:\*.target.com inurl:"fetch?uri="  
-site:\*.target.com inurl:"file=http"  
-site:\*.target.com inurl:"src=http"  
-site:\*.target.com inurl:"devUrl="  
-site:\*.target.com inurl:"returnUrl="  
-site:\*.target.com inurl:"/redirect?target="  
-site:\*.target.com inurl:"/api/load?uri="  
-site:\*.target.com inurl:"?open=http"  
-site:\*.target.com inurl:"proxy?path="  
-site:\*.target.com inurl:"?data=http"  
-site:\*.target.com inurl:"external?link="  
-site:\*.target.com inurl:"endpoint=http"  
-site:\*.target.com inurl:"external?url="  
-site:\*.target.com inurl:"src=http" filetype:xml  
-site:\*.target.com inurl:"url=" filetype:pdf  
-site:\*.target.com inurl:"callbackUrl=http"  
-site:\*.target.com inurl:"?background=http"  
-site:\*.target.com inurl:"?continue=http"  
-site:\*.target.com inurl:"?referenceUrl=http"_
+site:*.target.com inurl:"url="  
+site:*.target.com inurl:"redirect="  
+site:*.target.com inurl:"?next=http"  
+site:*.target.com inurl:"img_url="  
+site:*.target.com inurl:"load.php?url="  
+site:*.target.com inurl:"api.php?url="  
+site:*.target.com inurl:"fetch?uri="  
+site:*.target.com inurl:"file=http"  
+site:*.target.com inurl:"src=http"  
+site:*.target.com inurl:"devUrl="  
+site:*.target.com inurl:"returnUrl="  
+site:*.target.com inurl:"/redirect?target="  
+site:*.target.com inurl:"/api/load?uri="  
+site:*.target.com inurl:"?open=http"  
+site:*.target.com inurl:"proxy?path="  
+site:*.target.com inurl:"?data=http"  
+site:*.target.com inurl:"external?link="  
+site:*.target.com inurl:"endpoint=http"  
+site:*.target.com inurl:"external?url="  
+site:*.target.com inurl:"src=http" filetype:xml  
+site:*.target.com inurl:"url=" filetype:pdf  
+site:*.target.com inurl:"callbackUrl=http"  
+site:*.target.com inurl:"?background=http"  
+site:*.target.com inurl:"?continue=http"  
+site:*.target.com inurl:"?referenceUrl=http"_
 ```
